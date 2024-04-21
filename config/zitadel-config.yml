@@ -2,7 +2,7 @@ Log:
   Level: info
 
 ExternalSecure: true
-ExternalDomain: zitadel-elotoja.fly.dev
+ExternalDomain: eloauth.com
 ExternalPort: 443
 
 Database:
