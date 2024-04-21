@@ -7,7 +7,6 @@ ExternalPort: 443
 
 Database:
   cockroach:
-    Host: zitadel-9553.7tc.aws-eu-central-1.cockroachlabs.cloud
     Port: 26257
     Database: zitadel
     MaxOpenConns: 20

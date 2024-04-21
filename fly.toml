@@ -9,7 +9,7 @@ kill_signal = 'SIGINT'
 kill_timeout = '5s'
 
 [experimental]
-  cmd = ['start-from-init', '--config=/config/zitadel-config.yml', '--config=/config/zitadel-secrets.yml', '--steps=/config/zitadel-init-steps.yml', '--masterkeyFromEnv', '--tlsMode=external']
+  cmd = ['start-from-init', '--config=/config/zitadel-config.yml', '--steps=/config/zitadel-init-steps.yml', '--masterkeyFromEnv', '--tlsMode=external']
   auto_rollback = true
 
 [build]
